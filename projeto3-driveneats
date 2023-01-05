@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Driven Eats</title>
+  </head>
+
+  <!--top flap - oustet-->
+
+  <body>
+    <div class="summit">
+      <h1>DrivenEats</h1>
+      <h2>Sua comida em 6 minutos</h2>
+    </div>
+
+  <!--top flap - end-->  
+
+
+  <!--collumns itens - outset-->
+
+  <!-- column main-course - outset-->
+
+
+    <div class="columns">
+      <div class="column maincourse">
+        <h1>Primeiro, seu prato</h1>
+        <div class="categoryline">
+          <div class="chosenproduct" onclick="selectmeal('maincourse',this)">
+            <img src="img/tortilla.jpg" alt="tortilla" class="productpicture"/>
+            <h2>Tortilla</h2>
+            <p class="productdescription">Frango, Carne ou Vegetariano</p>
+            <div class="pricebox">
+              <p class="price">R$ 32,90</p>
+              <img src="img/check.png" alt="selectedproduct" />
+            </div>
+          </div>
+          <div class="chosenproduct" onclick="selectmeal('maincourse',this)">
+          <img src="img/tacos.jpg" alt="Tacos" class="productpicture"/>
+          <h2>Tacos</h2>
+          <p class="productdescription">Produto apimentado</p>
+          <div class="pricebox">
+            <p class="price">R$ 38,64</p>
+            <img src="img/check.png" alt="selectedproduct" />
+          </div>
+        </div>
+        <div class="chosenproduct" onclick="selectmeal('maincourse',this)">
+        <img src="img/chilli.jpg" alt="Chilli" class="productpicture"/>
+        <h2>Chilli</h2>
+        <p class="productdescription">Porção de 300g</p>
+        <div class="pricebox">
+          <p class="price">R$ 53,17</p>
+          <img src="img/check.png" alt="selectedproduct" />
+        </div>
+      </div>                  
+      <div class="chosenproduct" onclick="selectmeal('maincourse',this)">
+      <img src="img/burrito.jpg" alt="Burrito" class="productpicture"/>
+      <h2>Burrito</h2>
+      <p class="productdescription">Carne, frango e vegetariano</p>
+      <div class="pricebox">
+        <p class="price">R$ 21,99</p>
+        <img src="img/check.png" alt="selectedproduct" />
+      </div>
+    </div>
+          <div class="chosenproduct" onclick="selectmeal('maincourse',this)">
+            <img src="img/enchiladas.jpg" alt="Enchiladas" class="productpicture"/>
+            <h2>Enchiladas</h2>
+            <p class="productdescription">Produto Vegano</p>
+            <div class="pricebox">
+              <p class="price">R$ 39,99</p>
+              <img src="img/check.png" alt="selectedproduct" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!--column main-course - end-->
+
+  <!-- column beverages - outset-->
+      
+      <div class="column beverage">
+        <h1>Agora, sua bebida</h1>
+        <div class="categoryline">
+          <div class="chosenproduct" onclick="selectmeal('beverage',this)">
+            <img src="img/mezcal.jpg" alt="Mezcal" class="productpicture"/>
+            <h2>Mezcal</h2>
+            <p class="productdescription">45 ml</p>
+            <div class="pricebox">
+              <p class="price">R$ 12,00</p>
+              <img src="img/check.png" alt="selectedproduct" />
+            </div>
+          </div>
+          <div class="chosenproduct" onclick="selectmeal('beverage',this)">
+          <img src="img/licuado.png" alt="Licuado" class="productpicture"/>
+          <h2>Licuado</h2>
+          <p class="productdescription">350ml</p>
+          <div class="pricebox">
+            <p class="price">R$ 8,95</p>
+            <img src="img/check.png" alt="selectedproduct" />
+          </div>
+        </div>
+        <div class="chosenproduct" onclick="selectmeal('beverage',this)">
+        <img src="img/aguafresca.jpg" alt="Água Fresca" class="productpicture"/>
+        <h2>Água Fresca</h2>
+        <p class="productdescription">500ml</p>
+        <div class="pricebox">
+          <p class="price">R$ 13,18</p>
+          <img src="img/check.png" alt="selectedproduct" />
+        </div>
+      </div>
+                   
+          <div class="chosenproduct" onclick="selectmeal('beverage',this)">
+            <img src="img/pulque.png" alt="Pulque" class="productpicture"/>
+            <h2>Pulque</h2>
+            <p class="productdescription">250ml</p>
+            <div class="pricebox">
+              <p class="price">R$ 20,50</p>
+              <img src="img/check.png" alt="selectedproduct" />
+            </div>
+          </div>
+          <div class="chosenproduct" onclick="selectmeal('beverage',this)">
+            <img src="img/atole.png" alt="Atole" class="productpicture"/>
+            <h2>Atole</h2>
+            <p class="productdescription">150ml</p>
+            <div class="pricebox">
+              <p class="price">R$ 17,30</p>
+              <img src="img/check.png" alt="selectedproduct" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--column beverages - end-->
+
+      <!--column desserts - outset-->
+
+
+      <div class="column dessert">
+        <h1>Por fim, sua sobremesa</h1>
+        <div class="categoryline">
+          <div class="chosenproduct" onclick="selectmeal('dessert',this)">
+            <img src="img/pasteldeelote.jpg" alt="PasteldeElote" class="productpicture" />
+            <h2>Pastel de Elote</h2>
+            <p class="productdescription">200g</p>
+            <div class="pricebox">
+              <p class="price">R$ 22,90</p>
+              <img src="img/check.png" alt="selectedproduct" />
+            </div>
+          </div>
+          <div class="chosenproduct" onclick="selectmeal('dessert',this)">
+            <img src="img/tresleches.jpg" alt="Bolo de Tres Leches" class="productpicture" />
+            <h2>Bolo de Tres Leches</h2>
+            <p class="productdescription">Fatia</p>
+            <div class="pricebox">
+              <p class="price">R$ 27,40</p>
+              <img src="img/check.png" alt="selectedproduct" />
+            </div>
+          </div>
+          <div class="chosenproduct" onclick="selectmeal('dessert',this)">
+            <img src="img/mostachon.jpg" alt="Mostachon de Fresa" class="productpicture" />
+            <h2>Mostachon de Fresa</h2>
+            <p class="productdescription">350g</p>
+            <div class="pricebox">
+              <p class="price">R$ 67,20</p>
+              <img src="img/check.png" alt="selectedproduct" />
+            </div>
+          </div>
+          <div class="chosenproduct" onclick="selectmeal('dessert',this)">
+            <img src="img/tortamaia.jpg" alt="Torta de Chocolate Maia" class="productpicture"/>
+            <h2>Torta de Chocolate Maia</h2>
+            <p class="productdescription">Fatia</p>
+            <div class="pricebox">
+              <p class="price">R$ 24,10</p>
+              <img src="img/check.png" alt="selectedproduct" />
+            </div>
+          </div>
+          <div class="chosenproduct" onclick="selectmeal('dessert',this)">
+            <img src="img/bunuelo.jpg" alt="Buñuelo" class="productpicture" />
+            <h2>Buñuelo</h2>
+            <p class="productdescription">250g</p>
+            <div class="pricebox">
+              <p class="price">R$ 30,00</p>
+              <img src="img/check.png" alt="selectedproduct" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--column desserts - end-->
+
+    <!--collumns itens - outset-->
+
+    <!--configuration of buttons and sending - outset-->
+    
+    <div class="greenbox">
+      <h1>Confirme seu pedido</h1>
+      <p class="shoppinglist"></p>
+      <button class="buy">
+        <a href="#">Tudo certo, pode pedir!</a>
+      </button>
+      <button class="notbuy" onclick="cancel()">Cancelar</button>
+    </div>
+    <div class="finishbutton">
+      <button
+        class=" finalizeorder disabled"
+        disabled
+        onclick="finishshopping()">
+        Selecione os 3 itens para fechar o pedido
+      </button>
+    </div>
+
+    <!--configuration of buttons and sending - end-->
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
