@@ -59,7 +59,9 @@
     margin-top: 16px;
   }
 
-  
+  .categoryline::-webkit-scrollbar {
+    display: none;
+  }
 
   .chosenproduct {
     width: 162px;
